@@ -13,6 +13,7 @@ Steps to run:
 
 
 Summary:
+
 I utilised the laravel starter kit which came pre-equipped with a lot of tools ready, 
 I wanted to make that known as there are obvioulsy a lot of files that are not being used. 
 I deleted the majority of at least the frontend extra files and kept the ones I worked on
@@ -28,6 +29,7 @@ tasks was ensuring a comfortable ui for desktop and mobile and anything in betwe
 your expectations.
 
 What I would have improved:
+
 Given more time, there would have been several improvements, especially in the UI area. I skipped out on a bit of 
 loading animations as well as success and error popups. Furthermore, there is a lot of room to grow and include more
 features such as editing a post, deleting a post and potentially more filter options. There are also a lot to improve on the authentication 
