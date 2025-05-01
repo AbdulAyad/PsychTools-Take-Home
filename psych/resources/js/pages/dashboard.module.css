@@ -1,0 +1,104 @@
+.container {
+    background-color: var(--background);
+    display: block;
+    height: 100%;
+    align-items: center;
+    overflow: auto;
+}
+
+.innerContainer {
+    margin-top: 5rem;
+    width: 100%;
+    max-width: 50rem;
+    padding: 2rem;
+    height: 100%;
+    background-color: white;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-colour);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navItems {
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    gap: 1rem;
+}
+
+.navItem {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.createPostScreen {
+    background-color: var(--primary-colour);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.createPostScreenHidden {
+    background-color: var(--primary-colour);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    top: -100vh;
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    width: 50rem;
+    justify-content: center;
+}
+
+.formGrid {
+    display: grid;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.inputGroup {
+    display: grid;
+    gap: 1rem;
+}
+
+.inputLabel {
+    font-size: 1.2rem;
+    color: white;
+}

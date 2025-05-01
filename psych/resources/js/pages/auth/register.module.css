@@ -1,0 +1,63 @@
+.registerContainer {
+    background-color: var(--background);
+    display: flex;
+    min-height: 100svh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .registerContainer {
+        padding: 3rem;
+    }
+}
+
+.innerContainer {
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formGrid {
+    display: grid;
+    gap: 1rem;
+}
+
+.inputGroup {
+    display: grid;
+    gap: 1rem;
+}
+
+.loginButton {
+    color: var(--muted-foreground);
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.inputLabel {
+    font-size: 1.2rem;
+}
+
+.header {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.passwordCheckerContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}

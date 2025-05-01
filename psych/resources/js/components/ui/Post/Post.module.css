@@ -1,0 +1,61 @@
+.postContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--washed-blue);
+    border-radius: 0.5rem;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    margin: 1rem;
+    gap: 1rem;
+    position: relative;
+}
+
+.title{
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.text{
+    font-size: 1.4rem;
+    overflow: hidden;
+   max-height: calc(1.6rem * 1.6 * 2); 
+        transition:  all 0.3s ease-in-out;
+}
+
+.expandedText{
+    font-size: 1.4rem;
+    overflow:hidden;
+   max-height: 100rem;
+        transition:  all 0.5s ease-in-out;
+    
+}
+
+.expand {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeContainer{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.created{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: var(--primary-colour);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white
+}
